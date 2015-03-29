@@ -7161,7 +7161,6 @@ h1, h2, h3 {
   left: 0;
   right: 0;
   background-color: #425162;
-  transition: all .3s ease-in-out;
   padding: 0 2em;
 }
 .header .container {
@@ -7235,19 +7234,16 @@ h1, h2, h3 {
     font-weight: normal;
     color: #f1f1f1;
     background-color: transparent;
-    border-bottom: 2px solid #f1f1f1;
   }
   .header .navbar-nav > li.active > a:hover, .header .navbar-nav > li.active > a:active, .header .navbar-nav > li.active > a:focus {
     font-weight: normal;
     color: #f1f1f1;
-    border-bottom: 2px solid #f1f1f1;
     background-color: transparent;
   }
   .header .navbar-nav > li > a {
     padding: 0;
     color: #94979f;
     transition: all .25s ease-in-out;
-    border-bottom: 2px solid transparent;
   }
   .header .navbar-nav > li > a:hover, .header .navbar-nav > li > a:active, .header .navbar-nav > li > a:focus {
     font-weight: normal;
@@ -7311,7 +7307,7 @@ h1, h2, h3 {
   border: 2px solid #A9DC8E;
   font-size: 35px;
   color: #A9DC8E;
-  border-radius: 6px;
+  border-radius: 26px;
 }
 .features .feature-item h3 {
   font-size: 20px;
